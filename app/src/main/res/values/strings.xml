@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">انبار</string>
+    <string name="Username">نام کاربری</string>
+    <string name="Password">گذرواژه</string>
+    <string name="Login">ورود</string>
+    <string name="Exit">خروج</string>
+    <string name="Loading">لطفا منتظر بمانید</string>
+    <string name="Faild">نام کاربری یا گذرواژه اشتباه است</string>
+</resources>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    app:cardCornerRadius="15dp"
+    android:id="@+id/CardView"
+    android:background="@drawable/backgroundcardview"
+
+    android:layout_marginTop="5dp"
+    android:layout_height="60dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:background="@drawable/backgroundcardview"
+
+android:id="@+id/Constrait"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/FactorNumber"
+            android:layout_width="117dp"
+            android:layout_height="25dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="3dp"
+            android:fontFamily="@font/yekan"
+
+            android:layoutDirection="rtl"
+            android:text="9940520775"
+            android:textColor="@color/Black"
+            app:layout_constraintBottom_toTopOf="@+id/CustomerName"
+
+
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.93"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/CustomerName"
+            android:layout_width="300dp"
+            android:layout_height="28dp"
+            android:layout_marginTop="3dp"
+            android:gravity="right"
+            android:layoutDirection="rtl"
+            android:text="تعاونی مصرف کارمندان دولت"
+            android:textColor="@color/Black"
+            android:textSize="17dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/FactorNumber"
+            app:layout_constraintHorizontal_bias="0.968"
+            app:layout_constraintStart_toStartOf="@+id/FactorNumber"
+            app:layout_constraintTop_toBottomOf="@+id/FactorNumber" />
+
+        <TextView
+            android:id="@+id/Date"
+            android:layout_width="100dp"
+            android:layout_height="25dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="5dp"
+            android:fontFamily="@font/yekan"
+            android:gravity="center"
+            android:layoutDirection="rtl"
+            android:text="1399/09/10"
+            android:textColor="@color/Black"
+            app:layout_constraintBottom_toTopOf="@+id/CustomerName"
+            app:layout_constraintEnd_toStartOf="@+id/FactorNumber"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="MissingConstraints" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>

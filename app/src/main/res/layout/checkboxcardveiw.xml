@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="300dp"
+    android:layout_height="40dp"
+android:orientation="horizontal"
+    android:layout_marginTop="6dp"
+    android:id="@+id/cardviewProduct"
+    android:background="#CCCCCC">
+
+
+    <com.google.android.material.checkbox.MaterialCheckBox
+        android:id="@+id/checkbox"
+        android:layout_width="32dp"
+        android:layout_height="38dp"
+        android:background="#CCCCCC"
+        android:checked="false"
+        android:clickable="false"
+
+
+        app:layout_constraintBottom_toBottomOf="@+id/qty"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/qty"
+        app:layout_constraintVertical_bias="0.6"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/qty"
+        android:layout_width="87dp"
+        android:layout_height="33dp"
+        android:layout_marginEnd="152dp"
+        android:gravity="center"
+        android:text="kedo"
+        android:textColor="#000"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.482"
+        app:layout_constraintStart_toEndOf="@+id/checkbox"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.571"
+
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="148dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="3dp"
+        android:gravity="center"
+        android:textColor="#000"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.8"
+        app:layout_constraintStart_toEndOf="@+id/qty"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.571"
+        tools:ignore="MissingConstraints" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
